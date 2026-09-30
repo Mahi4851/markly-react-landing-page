@@ -1,0 +1,27 @@
+.collections { padding-block: var(--section-y); }
+.collections__heading { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.collections__heading h2 { max-width: 520px; }
+.collections__stage { height: clamp(360px, 43vw, 610px); display: flex; align-items: center; justify-content: center; padding-top: 20px; perspective: 1100px; }
+.collections__product { position: relative; width: min(100%, 650px); height: 100%; display: grid; place-items: center; }
+.collections__bag { position: relative; z-index: 2; max-width: min(560px, 70vw); max-height: 92%; object-fit: contain; filter: drop-shadow(0 22px 18px rgba(0,0,0,.13)); }
+.collections__shadow { position: absolute; z-index: 1; left: 50%; bottom: 8%; width: min(70%, 430px); transform: translateX(-50%); pointer-events: none; }
+.collections__bottom { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; }
+.collections__bottom > p { width: min(100%, 390px); font-size: .84rem; }
+.arrow-controls { display: flex; gap: 8px; }
+.arrow-controls button { width: 38px; height: 38px; border: 1px solid var(--line); background: var(--paper); font-size: 1rem; transition: background .2s ease, color .2s ease, transform .2s ease; }
+.arrow-controls button:first-child { background: var(--ink); color: #fff; border-color: var(--ink); }
+.arrow-controls button:hover { background: #e9e9e9; color: var(--ink); transform: translateY(-2px); }
+
+@media (max-width: 767px) {
+  .collections { padding-block: 48px 54px; }
+  .collections__heading { gap: 7px; }
+  .collections__heading .eyebrow { font-size: .72rem; }
+  .collections__heading h2 { max-width: 320px; font-size: 1.9rem; }
+  .collections__stage { height: 330px; padding-top: 10px; }
+  .collections__bag { max-width: min(94vw, 390px); max-height: 88%; }
+  .collections__shadow { bottom: 10%; width: min(68%, 300px); }
+  .collections__bottom { align-items: flex-end; gap: 14px; }
+  .collections__bottom > p { width: 72%; font-size: .7rem; line-height: 1.45; }
+  .arrow-controls { gap: 6px; }
+  .arrow-controls button { width: 32px; height: 32px; font-size: .88rem; }
+}

@@ -1,0 +1,5 @@
+/* Adventure-specific responsive refinements live here; shared split layout is imported from SustainabilitySection.css. */
+@media (max-width: 767px) {
+  .split--adventure .split__copy { padding-bottom: 24px; }
+  .split--adventure .split__media { margin-inline: calc(var(--gutter) * -1); width: calc(100% + (var(--gutter) * 2)); }
+}

@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame" clip-path="url(#clip0_0_481)">
+<path id="Vector" d="M14.1282 12.641C10.559 12.641 6.19658 9.17094 4.46154 7.4359L1.48718 9.66667V15.6154L2.97436 20.8205L7.4359 25.2821L11.8974 26.7692H17.1026L23.0513 23.7949L26.7692 19.3333L27.5128 12.641L25.282 6.69231C23.0513 8.67521 17.6974 12.641 14.1282 12.641Z" fill="#0C0C0C"/>
+<circle id="Ellipse" cx="14.5" cy="14.5" r="12.76" stroke="#0C0C0C" stroke-width="3.48"/>
+<g id="Mask Group">
+<mask id="mask0_0_481" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="29" height="29">
+<path id="Vector_2" d="M14.5 29C22.5081 29 29 22.5081 29 14.5C29 6.49187 22.5081 0 14.5 0C6.49187 0 0 6.49187 0 14.5C0 22.5081 6.49187 29 14.5 29Z" fill="black"/>
+</mask>
+<g mask="url(#mask0_0_481)">
+<circle id="Ellipse_2" cx="13.5" cy="1.5" r="10.76" stroke="#0C0C0C" stroke-width="3.48"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_481">
+<rect width="29" height="29" fill="white"/>
+</clipPath>
+</defs>
+</svg>
